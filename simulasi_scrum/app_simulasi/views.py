@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from .form_peminjaman import PostForm
 from .models import *
 
 def home(request):
@@ -9,13 +10,13 @@ def tampilan_peminjaman(request):
 
 def form_pinjam(request):
     if request.method == "POST":
-        form = BlogForm(request.POST, request.FILES)
+        form = PostForm(request.POST, request.FILES)
         if form.is_valid():
-            #post = form.save
+            post = form.save
             form.save()
-            # return redirect('')
+            return redirect('form_pinjam')
     else :
-        form = BlogForm()
+        form = PostForm()
     return render(request, 'peminjaman.html', {'form' : form})
 
 def display_pinjam(request):
