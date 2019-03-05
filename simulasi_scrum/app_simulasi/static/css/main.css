@@ -14,12 +14,27 @@ footer{
 }
 
 .menu{
-    margin: 13% 25%;
-    padding: 15px 60px;
-    width: 50%;
-    height: 30%;
+    margin: 13% 5%;
+    text-align: center;
+    width: 90%;
     border: 1px solid grey;
     border-radius: 25px;
+    padding: 20px 0;
+}
+
+table{
+    text-align: left;
+    margin: 10px 3%;
+}
+
+th{
+    border: 1px solid black;
+    padding: 1px;
+}
+
+td{
+    border: 1px solid black;
+    padding: 1px;
 }
 
 .peminjaman{
