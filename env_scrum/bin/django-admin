@@ -1,4 +1,5 @@
-#!/home/alphatech/kumpulan/SCRUM/SCRUM/env_scrum/bin/python3
+#!/home/alphatech/scrum/env_scrum/bin/python3
+
 # -*- coding: utf-8 -*-
 import re
 import sys

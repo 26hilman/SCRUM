@@ -1,4 +1,4 @@
-#!/home/alphatech/kumpulan/SCRUM/SCRUM/env_scrum/bin/python3
+#!/home/alphatech/scrum/env_scrum/bin/python3
 from django.core import management
 
 if __name__ == "__main__":

@@ -1,4 +1,4 @@
-#!/home/alphatech/kumpulan/SCRUM/SCRUM/env_scrum/bin/python
+#!/home/alphatech/scrum/env_scrum/bin/python
 
 import sys
 import getopt

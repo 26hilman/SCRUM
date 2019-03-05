@@ -40,7 +40,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/alphatech/kumpulan/SCRUM/SCRUM/env_scrum"
+VIRTUAL_ENV="/home/alphatech/scrum/env_scrum"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
