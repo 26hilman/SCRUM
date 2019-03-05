@@ -9,6 +9,7 @@ deactivate nondestructive
 
 setenv VIRTUAL_ENV "/home/alphatech/scrum/env_scrum"
 
+
 set _OLD_VIRTUAL_PATH="$PATH"
 setenv PATH "$VIRTUAL_ENV/bin:$PATH"
 

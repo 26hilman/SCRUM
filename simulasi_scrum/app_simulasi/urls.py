@@ -1,4 +1,4 @@
-"""simulasi_scrum URL Configuration
+"""project_views URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/2.1/topics/http/urls/
@@ -15,8 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from . import views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('', include("app_simulasi.urls")),
+    path('kembali/', views.home),
+    path ('peminjaman/', views.tampilan_peminjaman, name='form_pinjam'),
+    path('displaypinjam/',views.display_pinjam, name = "display_pinjam")
 ]
+
