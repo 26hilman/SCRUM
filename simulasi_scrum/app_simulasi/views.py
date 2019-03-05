@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from .models import *
 
 def home(request):
     return render(request, 'home/daftar_home.html',{})
@@ -16,3 +17,7 @@ def form_pinjam(request):
     else :
         form = BlogForm()
     return render(request, 'peminjaman.html', {'form' : form})
+
+def display_pinjam(request):
+    pinjam_semua = Barang.objects.all()
+    return render(request, 'DisplayPeminjaman.html', {'display_data': pinjam_semua})

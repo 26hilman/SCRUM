@@ -20,5 +20,6 @@ from . import views
 urlpatterns = [
     path('kembali/', views.home),
     path ('peminjaman/', views.tampilan_peminjaman, name='form_pinjam'),
+    path('displaypinjam/',views.display_pinjam, name = "display_pinjam")
 ]
 
