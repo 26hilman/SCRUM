@@ -1,0 +1,14 @@
+header{
+    background-image: linear-gradient(to right, white, lightblue);
+    padding: 20px;
+    margin: 0 10px;
+    font-family: 'Muli', sans-serif;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #f7f7f7;
+    color: gray;
+    font-family: 'Muli', sans-serif;
+    padding: 5px;
+}
