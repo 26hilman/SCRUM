@@ -1,0 +1,29 @@
+{% load static %}
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="{% static 'js/bootstrap.min.js' %}"></script>
+        <script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
+        <link rel = "stylesheet" href="../../static/css/main.css">
+        <link rel = "stylesheet" href="static/css/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Muli:300,400,600,700" rel="stylesheet"> 
+        {% block title %}
+        {% endblock %}
+    </head>
+    <body>
+        <header>
+            <div class="container-fluid">
+                <h2>AlphaLogger</h2>
+            </div>
+        </header>
+        {% block content %}
+        {% endblock %}
+        <footer>
+            <div class="container-fluid">
+                    <span>&copy; 2019, AlphaLogger</span>
+            </div>
+        </footer>
+    </body>
+</html>
