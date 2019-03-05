@@ -1,5 +1,6 @@
 from django import forms
 from .models import Peminjaman
+from django.db import models
 
 class PostForm(forms.ModelForm):
 

@@ -28,6 +28,7 @@ class Peminjaman(models.Model):
     id_karyawan = models.CharField(max_length=255)
     tanggal_pinjam = models.CharField(max_length=255)
     tanggal_kembali = models.CharField(max_length=255)
+    keperluan = models.CharField(max_length=255)
     status = models.CharField(max_length=255)
 
     def __str__(self):
