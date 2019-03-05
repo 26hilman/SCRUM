@@ -18,7 +18,7 @@ from django.urls import path, include
 from . import views
 
 urlpatterns = [
-    path('', views.home),
+    path('kembali/', views.home),
     path ('peminjaman/', views.tampilan_peminjaman, name='form_pinjam'),
 ]
 
