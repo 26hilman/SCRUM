@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+<title>Weclome to Alpha Tech Academy</title>
+{% endblock %}
+
+{% block content %}
+    <section class="isi-index">
+            <div class="menu">
+                <div class="row">
+                    <div class="col-md-12">
+                        <button class="booking" href="{% url 'pinjam' %}">Pinjam</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">    
+                        <table>
+                            <tr>
+                                <th>nama_barang</th>
+                                <th>no_seri</th>
+                                <th>kondisi_barang</th>
+                                <th>id_karyawan</th>
+                                <th>tanggal_pinjam</th>
+                                <th>tanggal_kembali</th>
+                                <th>status</th>
+                            </tr>
+                            {% for item in display_data %}
+                            <tr> 
+                                <td>{{ item.nama_barang }}</td>
+                                <td>{{ item.no_seri }}</td>
+                                <td>{{ item.kondisi_barang }}</td>
+                                <td>{{ item.id_karyawan }}</td>
+                                <td>{{ item.tanggal_pinjam }}</td>
+                                <td>{{ item.tanggal_kembali }}</td>
+                                <td>{{ item.status }}</td>
+                            </tr>
+                            {% endfor %}
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+{% endblock %} -->

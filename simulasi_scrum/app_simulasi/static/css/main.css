@@ -12,3 +12,35 @@ footer{
     font-family: 'Muli', sans-serif;
     padding: 5px;
 }
+
+.menu{
+    margin: 13% 5%;
+    text-align: center;
+    width: 90%;
+    border: 1px solid grey;
+    border-radius: 25px;
+    padding: 20px 0;
+}
+
+table{
+    text-align: left;
+    margin: 10px 3%;
+}
+
+th{
+    border: 1px solid black;
+    padding: 1px;
+}
+
+td{
+    border: 1px solid black;
+    padding: 1px;
+}
+
+.peminjaman{
+    width: 200px;
+    padding: 3px auto;
+    background-color: blue;
+    border-radius: 25px;
+    color: white;
+}
