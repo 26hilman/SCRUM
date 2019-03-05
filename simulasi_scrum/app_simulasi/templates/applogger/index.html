@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+<title>Weclome to Alpha Tech Academy</title>
+{% endblock %}
+
+{% block content %}
+    <section class="isi-index">
+            <div class="menu">
+                <div class="row">
+                    <div class="col-md-6">
+                        <button class="peminjaman" href="{% url 'pinjam' %}">Pinjam</button>
+                    </div>
+                    <div class="col-md-6">
+                        <button class="peminjaman" href="{% url 'kembali' %}">Kembali</button>
+                    </div>
+                    
+                    <div class="col-md-12">
+                        <hr>
+                        <h5>Sisa Barang:</h5>
+                        <span>Speaker: 5</span>
+                        <br>
+                        <span>Kamera: 3</span>
+                        <br>
+                        <span>Connector: 7</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+{% endblock %} -->

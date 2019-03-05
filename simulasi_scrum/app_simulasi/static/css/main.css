@@ -12,3 +12,20 @@ footer{
     font-family: 'Muli', sans-serif;
     padding: 5px;
 }
+
+.menu{
+    margin: 13% 25%;
+    padding: 15px 60px;
+    width: 50%;
+    height: 30%;
+    border: 1px solid grey;
+    border-radius: 25px;
+}
+
+.peminjaman{
+    width: 200px;
+    padding: 3px auto;
+    background-color: blue;
+    border-radius: 25px;
+    color: white;
+}
